@@ -1,0 +1,39 @@
+#carouselExampleSlidesOnly{
+  width:50%;
+  position: relative;
+  left: 300px;
+  margin-top: 50px;
+}
+.carousel-item{
+  display: flex;
+}
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.3);
+  /* width: 100%; */
+  margin-left: 0px;
+  align-self: flex-start;
+}
+.col-sm{
+  margin-top: 20px
+}
+.hidden{
+  visibility: hidden;
+}
+.bg-purple{
+  background-color: rgb(82,63,120);
+}
+.nav-link, .navbar-brand{
+  color: rgb(255,255,100)
+}
+#img-pr{
+  width: 107%;
+  position: relative;
+  right: 10px
+}
+#unavailable{
+  position: absolute;
+  width: 110%;
+  top: 40px;
+  right: -15px;
+  transform: rotate(-20deg)
+}
